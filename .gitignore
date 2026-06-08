@@ -1,0 +1,10 @@
+# Entorno virtual de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno y credenciales (¡SUPER IMPORTANTE!)
+.env
+
+# Archivos del sistema y temporales
+Thumbs.db
