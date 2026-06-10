@@ -12,7 +12,7 @@ Para garantizar un desarrollo limpio, estructurado y alineado con las prácticas
 - [x] Inicialización del repositorio local y enlace con GitHub.
 - [x] Configuración del entorno virtual aislado (`.venv`) en Python 3.9.
 - [x] Implementación del escudo de seguridad `.gitignore` y plantilla `.env.example`.
-- [ ] Creación del script en Python para simular los datos base de las bitácoras terrestres (coordenadas, tiempos, operarios).
+- [x] Creación del script en Python para simular los datos base de las bitácoras terrestres (coordenadas, tiempos, operarios).
 - [ ] Diseño preliminar del esquema de base de datos en PostgreSQL.
 
 ### ⏳ Sprint 2: Ingesta, Conexión y Modelado SQL (Próximamente)
