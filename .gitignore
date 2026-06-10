@@ -8,3 +8,6 @@ __pycache__/
 
 # Archivos del sistema y temporales
 Thumbs.db
+
+# Carpeta de datos generados
+data/
