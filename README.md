@@ -8,14 +8,14 @@ Este repositorio contiene un proyecto end-to-end de ingeniería de datos y anal�
 
 Para garantizar un desarrollo limpio, estructurado y alineado con las prácticas de la industria, el proyecto se encuentra organizado en **Sprints** incrementales. A continuación se detalla el alcance y el avance actual:
 
-### 🔄 Sprint 1: Configuración del Entorno y Simulación Base (En Proceso)
+### ✅ Sprint 1: Configuración del Entorno y Simulación Base (En Proceso)
 - [x] Inicialización del repositorio local y enlace con GitHub.
 - [x] Configuración del entorno virtual aislado (`.venv`) en Python 3.9.
 - [x] Implementación del escudo de seguridad `.gitignore` y plantilla `.env.example`.
 - [x] Creación del script en Python para simular los datos base de las bitácoras terrestres (coordenadas, tiempos, operarios).
 - [x] Diseño preliminar del esquema de base de datos en PostgreSQL.
 
-### ⏳ Sprint 2: Ingesta, Conexión y Modelado SQL (Próximamente)
+### 🔄 Sprint 2: Ingesta, Conexión y Modelado SQL (Próximamente)
 - [ ] Configuración del contenedor o base de datos local en PostgreSQL.
 - [ ] Creación de scripts de migración (`DDL`) utilizando Python (con `psycopg2` o `SQLAlchemy`).
 - [ ] Diseño de consultas avanzadas y auditorías de integridad mediante SQL.
