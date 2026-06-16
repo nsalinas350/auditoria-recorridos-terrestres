@@ -6,13 +6,13 @@ from datetime import datetime, timedelta
 ###############################
 # 1. DATOS MAESTROS PARA LA SIMULACIÓN
 CONDUCTORES = [
-    {"id_conductor": "C001", "nombre": "Carlos Mario Jaramillo", "experiencia_anos": 8},
-    {"id_conductor": "C002", "nombre": "Juan Fernando Hoyos", "experiencia_anos": 12},
-    {"id_conductor": "C003", "nombre": "Andrés Felipe Restrepo", "experiencia_anos": 4},
-    {"id_conductor": "C004", "nombre": "Santiago Alarcón", "experiencia_anos": 15},
-    {"id_conductor": "C005", "nombre": "Mateo Bermúdez", "experiencia_anos": 2},
-    {"id_conductor": "C006", "nombre": "Luis Alberto Posada", "experiencia_anos": 10},
-    {"id_conductor": "C007", "nombre": "Diana Carolina Vélez", "experiencia_anos": 6}
+    {"id_conductor": "CC-1017234001", "nombre": "Carlos Mario Jaramillo", "experiencia_anos": 8},
+    {"id_conductor": "CC-1037654002", "nombre": "Juan Fernando Hoyos", "experiencia_anos": 12},
+    {"id_conductor": "CC-1152431003", "nombre": "Andrés Felipe Restrepo", "experiencia_anos": 4},
+    {"id_conductor": "CC-1017987004", "nombre": "Santiago Alarcón", "experiencia_anos": 15},
+    {"id_conductor": "CC-1033456005", "nombre": "Mateo Bermúdez", "experiencia_anos": 2},
+    {"id_conductor": "CC-1128475006", "nombre": "Luis Alberto Posada", "experiencia_anos": 10},
+    {"id_conductor": "CC-1045321007", "nombre": "Diana Carolina Vélez", "experiencia_anos": 6}
 ]
 
 VEHICULOS = [
@@ -140,7 +140,7 @@ def simular_viaje(id_viaje, fecha_base):
     hora_llegada = hora_salida + timedelta(hours=tiempo_real)
     
     return {
-        "id_viaje": f"V-{id_viaje:05d}",
+        "id_viaje": f"V-{id_viaje:010d}",
         "fecha": hora_salida.strftime("%Y-%m-%d"),
         "hora_salida": hora_salida.strftime("%Y-%m-%d %H:%M:%S"),
         "hora_llegada": hora_llegada.strftime("%Y-%m-%d %H:%M:%S"),
